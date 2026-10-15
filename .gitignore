@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.matplotlib/
+data/
+outputs/
+outputs_*/
+*.pt
+*.pth
+*.log
+.DS_Store
+.env
+.env.*

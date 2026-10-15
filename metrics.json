@@ -1,0 +1,21 @@
+{
+  "model_type": "MLP",
+  "architecture": [
+    784,
+    256,
+    128,
+    10
+  ],
+  "device": "mps",
+  "pytorch_version": "2.14.1",
+  "best_epoch": 5,
+  "seed": 42,
+  "best_val_accuracy": 0.975,
+  "test_loss": 0.06896436767578125,
+  "test_accuracy": 0.9782,
+  "test_correct": 9782,
+  "train_samples": 55000,
+  "val_samples": 5000,
+  "test_samples": 10000,
+  "elapsed_seconds": 6.015875999990385
+}
