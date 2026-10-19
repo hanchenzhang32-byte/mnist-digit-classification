@@ -1,0 +1,17 @@
+{
+  "model_type": "CNN",
+  "architecture": "Conv(1→32,3×3)-ReLU-MaxPool → Conv(32→64,3×3)-ReLU-MaxPool → FC(3136→128)-ReLU-Dropout(0.2) → FC(128→10)",
+  "parameters": 421642,
+  "device": "mps",
+  "pytorch_version": "2.14.1",
+  "best_epoch": 5,
+  "seed": 42,
+  "best_val_accuracy": 0.9902,
+  "test_loss": 0.028762054443359376,
+  "test_accuracy": 0.9904,
+  "test_correct": 9904,
+  "train_samples": 55000,
+  "val_samples": 5000,
+  "test_samples": 10000,
+  "elapsed_seconds": 17.03795341699879
+}
