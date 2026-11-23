@@ -69,3 +69,7 @@ python -m pip install -r requirements.txt
 - `cnn/` — recorded CNN run (metrics, history, curves, confusion matrix, predictions)
 
 Fresh runs write to `outputs/` (MLP) and `outputs_cnn/` (CNN).
+
+## License
+
+[MIT](LICENSE) © 2026 Hanchen Zhang. MNIST is downloaded at runtime via Torchvision and is not included in this repository.
